@@ -1,3 +1,4 @@
 ---
 applications:
 - name: csv-analytics
+  path: build/libs/csv-analytics-$version.jar
