@@ -14,4 +14,9 @@ public class HelloController {
 		return new Greeting(1, "good morning");
 	}
 	
+	@GetMapping("/sayHi")
+	public Greeting sayHi() {
+		return new Greeting(2, "hi there");
+	}
+	
 }
