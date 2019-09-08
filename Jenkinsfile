@@ -35,7 +35,7 @@ node {
                 cf api https://api.run.pivotal.io
                 cf auth $USERNAME $PASSWORD
                 cf target -o rakotkar2013 -s development
-                cf push -f manifest.yml
+                cf push
                '''
         }
     }
